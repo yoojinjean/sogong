@@ -6,7 +6,11 @@
 #include "LibrarianMenu.h"
 #define STUMAX 100
 //seungeun jjang
+<<<<<<< HEAD
 //mod +
+=======
+
+>>>>>>> studentModified
 int stuNum=1;
 STU student[STUMAX];
 
@@ -165,13 +169,19 @@ int StuLogin_Menu(){
 
 void StudentMenu(){
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> studentModified
 	printf("\n");
 	printf("Student Menu\n");
 	printf("1.Search a book by title\n");
 	printf("2.Display all book\n");
 	printf("0.exit\n");
+<<<<<<< HEAD
 =======
 	printf("login success!\n");
 	
 >>>>>>> student
+=======
+>>>>>>> studentModified
 }
