@@ -5,6 +5,7 @@
 #include "StudentMenu.h"
 #include "LibrarianMenu.h"
 #define STUMAX 100
+//seungeun jjang
 
 stuNum=1;
 STU student[STUMAX];
@@ -53,7 +54,7 @@ void Count_Student(){
 	for(i=1; i<=STUMAX; i++)
 		if(fgets(buf, sizeof(buf), fp))
 			stuNum++;
-	printf("%d", stuNum);
+	//printf("%d", stuNum);
 	fclose(fp);
 
 }
@@ -161,4 +162,5 @@ int StuLogin_Menu(){
 
 void StudentMenu(){
 	printf("login success!\n");
+	
 }
