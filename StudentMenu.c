@@ -7,7 +7,7 @@
 #define STUMAX 100
 //seungeun jjang
 
-stuNum=1;
+int stuNum=1;
 STU student[STUMAX];
 
 
@@ -103,7 +103,9 @@ int Check_ID(char id[], int flag){
 		case 2:
 			for(i=1; i<stuNum; i++){
 				if( strcmp(id, student[i].id) == 0)
+				{
 					return i;
+				}
 			}
 			break;
 	}
@@ -156,11 +158,15 @@ int StuLogin_Menu(){
 		printf("Not Exist ID");
 		return 1;
 	}
+	printf("login success!\n");
 	return 0;
 
 }
 
 void StudentMenu(){
-	printf("login success!\n");
-	
+	printf("\n");
+	printf("Student Menu\n");
+	printf("1.Search a book by title\n");
+	printf("2.Display all book\n");
+	printf("0.exit\n");
 }
