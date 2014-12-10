@@ -7,10 +7,14 @@
 #define STUMAX 100
 //seungeun jjang
 <<<<<<< HEAD
+<<<<<<< HEAD
 //mod +
 =======
 
 >>>>>>> studentModified
+=======
+
+>>>>>>> 6867bbe24e9c97698b577a0d643e9f582f754663
 int stuNum=1;
 STU student[STUMAX];
 
@@ -170,13 +174,17 @@ int StuLogin_Menu(){
 void StudentMenu(){
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> studentModified
+=======
+>>>>>>> 6867bbe24e9c97698b577a0d643e9f582f754663
 	printf("\n");
 	printf("Student Menu\n");
 	printf("1.Search a book by title\n");
 	printf("2.Display all book\n");
 	printf("0.exit\n");
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 	printf("login success!\n");
@@ -184,4 +192,6 @@ void StudentMenu(){
 >>>>>>> student
 =======
 >>>>>>> studentModified
+=======
+>>>>>>> 6867bbe24e9c97698b577a0d643e9f582f754663
 }
