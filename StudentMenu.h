@@ -1,4 +1,4 @@
-//eunji
+//dahyun
 typedef struct stu
 {
 	char id[8];
