@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 //eunjiiiii
 =======
 //eunji
 //header
 >>>>>>> Master MOD
+=======
+//dahyun
+>>>>>>> mod
 typedef struct stu
 {
 	char id[8];
