@@ -35,3 +35,5 @@ Update 과정이 끝나면, User는 다시 Librarian mode의 초기화면을 보게 된다.
 만약 User가 Main menu에서 3. Create ID을 선택하면, 새로운 account 생성을 위한 Insert Information 화면이 출력되고, User는 ID, Password, Name, Department을 입력해야 한다. 
 ID로는 User의 Student ID를 사용해야 하며, Password는 4자리의 숫자로만 입력 가능하도록 한다. 
 Student ID는 중복검사를 거치게 된다.
+
+-test
