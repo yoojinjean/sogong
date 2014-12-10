@@ -6,7 +6,7 @@
 #include "LibrarianMenu.h"
 
 
-int LibMenu()
+int LibMenu()//관리자모드
 {
    int menu;
    INFO data[MAX];
