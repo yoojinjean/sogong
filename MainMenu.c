@@ -13,7 +13,7 @@ int main()
 	while (1){
 
 		printf("Main Menu\n");
-		printf("1. Librarian mode\n2. Student mode\n3.Create ID\n0.Exit\n\nINPUT: ");
+		printf("1. Librarian mode\n2. Student mode\n3.Create ID\n0.Exit\n\nINPUT: ");//프로그램 시작시 처음 나오는 부분
 		scanf("%d", &menu);
 		switch (menu)
 		{
@@ -36,7 +36,7 @@ int main()
 	}
 }
 
-int Login_Check(){
+int Login_Check(){//로그인 체크하는 함수
 int ok;
 
    ok=LibLogin();
